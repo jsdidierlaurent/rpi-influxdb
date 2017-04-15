@@ -1,5 +1,5 @@
 FROM resin/rpi-raspbian:jessie
-LABEL maintainer "Jean-Sébastien Didierlaurent"
+LABEL maintainer "Jean-Sébastien Didierlaurent <js.didierlaurent@gmail.com>"
 
 # Install build dependencies 
 RUN apt-get update && apt-get install -y --no-install-recommends \
